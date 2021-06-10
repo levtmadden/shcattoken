@@ -1,0 +1,101 @@
+
+$asset-base-path: '../../../../assets' !default;
+
+// Core
+
+@import "super-hero-cat/custom/functions";
+@import "~bootstrap/scss/functions";
+
+@import "super-hero-cat/custom/variables";
+@import "~bootstrap/scss/variables";
+
+@import "super-hero-cat/custom/mixins";
+@import "~bootstrap/scss/mixins";
+
+// Bootstrap components
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/images";
+@import "~bootstrap/scss/code";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/forms";
+@import "~bootstrap/scss/buttons";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/dropdown";
+@import "~bootstrap/scss/button-group";
+@import "~bootstrap/scss/input-group";
+@import "~bootstrap/scss/custom-forms";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/card";
+@import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/pagination";
+@import "~bootstrap/scss/badge";
+@import "~bootstrap/scss/jumbotron";
+@import "~bootstrap/scss/alert";
+@import "~bootstrap/scss/progress";
+@import "~bootstrap/scss/media";
+@import "~bootstrap/scss/list-group";
+@import "~bootstrap/scss/close";
+@import "~bootstrap/scss/modal";
+@import "~bootstrap/scss/tooltip";
+@import "~bootstrap/scss/popover";
+@import "~bootstrap/scss/carousel";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/print";
+
+// Custom components
+
+@import "super-hero-cat/custom/alerts.scss";
+@import "super-hero-cat/custom/buttons.scss";
+@import "super-hero-cat/custom/dropdown.scss";
+@import "super-hero-cat/custom/footer.scss";
+@import "super-hero-cat/custom/forms.scss";
+@import "super-hero-cat/custom/images.scss";
+@import "super-hero-cat/custom/modal.scss";
+@import "super-hero-cat/custom/navbar.scss";
+@import "super-hero-cat/custom/type.scss";
+@import "super-hero-cat/custom/icons.scss";
+@import "super-hero-cat/custom/tables";
+@import "super-hero-cat/custom/checkboxes-radio";
+@import "super-hero-cat/custom/fixed-plugin";
+@import "super-hero-cat/custom/pagination.scss";
+@import "super-hero-cat/custom/misc.scss";
+@import "super-hero-cat/custom/rtl.scss";
+@import "super-hero-cat/custom/input-group.scss";
+@import "super-hero-cat/custom/example-pages.scss";
+@import "super-hero-cat/custom/progress.scss";
+@import "super-hero-cat/custom/badge.scss";
+@import "super-hero-cat/custom/pills.scss";
+@import "super-hero-cat/custom/tabs.scss";
+@import "super-hero-cat/custom/info-areas.scss";
+
+// Sections
+@import "super-hero-cat/custom/sections.scss";
+
+// Vendor / Plugins
+
+@import "super-hero-cat/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "super-hero-cat/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "super-hero-cat/custom/vendor/plugin-bootstrap-switch.scss";
+@import "super-hero-cat/custom/vendor/plugin-nouislider.scss";
+@import "super-hero-cat/custom/vendor/plugin-datetimepicker.scss";
+
+// Cards
+
+@import "super-hero-cat/custom/card";
+@import "super-hero-cat/custom/cards/card-chart";
+@import "super-hero-cat/custom/cards/card-map";
+@import "super-hero-cat/custom/cards/card-user";
+@import "super-hero-cat/custom/cards/card-task";
+@import "super-hero-cat/custom/cards/card-plain";
+@import "super-hero-cat/custom/cards/card-register";
+@import "super-hero-cat/custom/cards/card-stats";
+@import "super-hero-cat/custom/cards/card-chart";
+
+// React Differences
+
+@import "super-hero-cat/react/react-differences";
