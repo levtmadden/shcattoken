@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/shcattoken/static/css/main.b95ce13d.chunk.css",
+    "main.js": "/shcattoken/static/js/main.531e7d8f.chunk.js",
+    "main.js.map": "/shcattoken/static/js/main.531e7d8f.chunk.js.map",
+    "runtime-main.js": "/shcattoken/static/js/runtime-main.dd8ce289.js",
+    "runtime-main.js.map": "/shcattoken/static/js/runtime-main.dd8ce289.js.map",
+    "static/js/2.daec2d6e.chunk.js": "/shcattoken/static/js/2.daec2d6e.chunk.js",
+    "static/js/2.daec2d6e.chunk.js.map": "/shcattoken/static/js/2.daec2d6e.chunk.js.map",
+    "index.html": "/shcattoken/index.html",
+    "static/css/main.b95ce13d.chunk.css.map": "/shcattoken/static/css/main.b95ce13d.chunk.css.map",
+    "static/js/2.daec2d6e.chunk.js.LICENSE.txt": "/shcattoken/static/js/2.daec2d6e.chunk.js.LICENSE.txt",
+    "static/media/blob.png": "/shcattoken/static/media/blob.e3950678.png",
+    "static/media/cercuri.png": "/shcattoken/static/media/cercuri.05cc0d04.png",
+    "static/media/super-hero-cat.scss?v=1.2.0": "/shcattoken/static/media/square5.16283001.png",
+    "static/media/denys.jpg": "/shcattoken/static/media/denys.1b33975a.jpg",
+    "static/media/dots.png": "/shcattoken/static/media/dots.1e305f98.png",
+    "static/media/etherum.png": "/shcattoken/static/media/etherum.1fbbc108.png",
+    "static/media/fabien-bazanegue.jpg": "/shcattoken/static/media/fabien-bazanegue.3c5ff5a0.jpg",
+    "static/media/mark-finn.jpg": "/shcattoken/static/media/mark-finn.40b78857.jpg",
+    "static/media/mike.jpg": "/shcattoken/static/media/mike.fe979cd1.jpg",
+    "static/media/nucleo-icons.css": "/shcattoken/static/media/nucleo.bd5cce8b.eot",
+    "static/media/path2.png": "/shcattoken/static/media/path2.35e76a63.png",
+    "static/media/path3.png": "/shcattoken/static/media/path3.3f66cc18.png",
+    "static/media/path4.png": "/shcattoken/static/media/path4.cb1d9fab.png",
+    "static/media/path5.png": "/shcattoken/static/media/path5.037b2fce.png",
+    "static/media/patrat.png": "/shcattoken/static/media/patrat.aeec33e4.png",
+    "static/media/square-purple-1.png": "/shcattoken/static/media/square-purple-1.ed3a5e38.png",
+    "static/media/waves.png": "/shcattoken/static/media/waves.ac46eaef.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dd8ce289.js",
+    "static/js/2.daec2d6e.chunk.js",
+    "static/css/main.b95ce13d.chunk.css",
+    "static/js/main.531e7d8f.chunk.js"
+  ]
+}
