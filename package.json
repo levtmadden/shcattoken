@@ -5,7 +5,6 @@
   "main": "index.js",
   "author": "SHCAT",
   "license": "MIT",
-  "homepage": "https://levtmadden.github.io/shcattoken",
   "dependencies": {
     "@testing-library/jest-dom": "5.11.6",
     "@testing-library/react": "11.2.2",
