@@ -143,7 +143,7 @@ export default function LandingPage() {
                 <img
                   alt="..."
                   className="img-fluid"
-                  src={require("assets/img/etherum.png").default}
+                  src={require("assets/img/supercat.png").default}
                 />
               </Col>
             </Row>
@@ -520,7 +520,7 @@ export default function LandingPage() {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/etherum.png").default}
+                      src={require("assets/img/supercat.png").default}
                     />
                   </CardHeader>
                   <CardBody>
@@ -552,7 +552,7 @@ export default function LandingPage() {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/etherum.png").default}
+                      src={require("assets/img/supercat.png").default}
                     />
                   </CardHeader>
                   <CardBody>
@@ -584,7 +584,7 @@ export default function LandingPage() {
                     <img
                       alt="..."
                       className="img-center img-fluid"
-                      src={require("assets/img/etherum.png").default}
+                      src={require("assets/img/supercat.png").default}
                     />
                   </CardHeader>
                   <CardBody>
