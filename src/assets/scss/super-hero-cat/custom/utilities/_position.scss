@@ -1,19 +1,60 @@
 @each $size, $value in $spacers {
-	.top-#{$size} {
-		top: $value;
-	}
-	.right-#{$size} {
-		right: $value;
-	}
-	.bottom-#{$size} {
-		bottom: $value;
-	}
-	.left-#{$size} {
-		left: $value;
-	}
+  .top-#{$size} {
+    top: $value;
+  }
+  .right-#{$size} {
+    right: $value;
+  }
+  .bottom-#{$size} {
+    bottom: $value;
+  }
+  .left-#{$size} {
+    left: $value;
+  }
 }
 
 .center {
-	left: 50%;
-	transform: translateX(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.countdown-fixed-bottom {
+  position: fixed;
+  right: 2em;
+  bottom: 1em;
+  left: 2em;
+  z-index: $zindex-fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-button {
+  margin-right: 2em;
+}
+
+.bottom-img {
+  margin-right: 0.5em;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer {
+  text-align: center;
+  display: grid;
+  margin: 0.5em;
+  padding: 0.5em;
 }

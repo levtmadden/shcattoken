@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 // react plugin used to create charts
 import { Doughnut } from "react-chartjs-2";
 // reactstrap components
@@ -13,6 +13,7 @@ import {
   Container,
   Row,
   Col,
+  UncontrolledAlert,
 } from "reactstrap";
 
 // core components
@@ -22,8 +23,41 @@ import Footer from "components/Footer/Footer.js";
 import bigChartData from "variables/charts.js";
 
 export default function LandingPage() {
+  const [timerDays, setTimerDays] = useState("00");
+  const [timerHours, setTimerHours] = useState("00");
+  const [timerMinutes, setTimerMinutes] = useState("00");
+  const [timerSeconds, setTimerSeconds] = useState("00");
+
+  let interval = useRef();
+
+  const startTimer = () => {
+    const countdownDate = new Date(2021, 6, 1, 0, 0, 0, 0).getTime();
+    interval = setInterval(() => {
+      const now = new Date().getTime();
+      const distance = countdownDate - now;
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        // stop timer
+        clearInterval(interval.current);
+      } else {
+        setTimerDays(days);
+        setTimerHours(hours);
+        setTimerMinutes(minutes);
+        setTimerSeconds(seconds);
+      }
+    }, 1000);
+  };
+
   React.useEffect(() => {
     document.body.classList.toggle("landing-page");
+    startTimer();
     // Specify how to clean up after this effect:
     return function cleanup() {
       document.body.classList.toggle("landing-page");
@@ -455,6 +489,52 @@ export default function LandingPage() {
             </Row>
           </Container>
         </section>
+        <UncontrolledAlert
+          className="alert-with-icon countdown-fixed-bottom"
+          color="default"
+        >
+          <div data-notify="icon" className="bottom-icon">
+            <img
+              alt="..."
+              className="bottom-img"
+              src={require("assets/img/favicon.png").default}
+            />
+            <div className="bottom-icon-title">
+              <p>SHCAT• Super Hero Cat Token</p>
+              <p>
+                <span className="tim-icons icon-spaceship" />
+                <b> Pre-sale start in </b>
+                <span className="tim-icons icon-spaceship" />
+              </p>
+            </div>
+          </div>
+          <div className="bottom-content">
+            <section className="timer">
+              <span> {timerDays} </span>
+              <span>Days</span>
+            </section>
+            :
+            <section className="timer">
+              <span> {timerHours} </span>
+              <span>Hours</span>
+            </section>
+            :
+            <section className="timer">
+              <span> {timerMinutes} </span>
+              <span>Minutes</span>
+            </section>
+            :
+            <section className="timer">
+              <span> {timerSeconds} </span>
+              <span>Seconds</span>
+            </section>
+          </div>
+          <div className="bottom-button">
+            <Button color="warning" href="#howToBuy">
+              How to buy?
+            </Button>
+          </div>
+        </UncontrolledAlert>
         <Footer />
       </div>
     </>

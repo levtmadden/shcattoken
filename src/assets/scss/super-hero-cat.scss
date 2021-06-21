@@ -73,6 +73,8 @@ $asset-base-path: '../../../../assets' !default;
 @import "super-hero-cat/custom/tabs.scss";
 @import "super-hero-cat/custom/info-areas.scss";
 
+@import "super-hero-cat/custom/utilities/position";
+
 // Sections
 @import "super-hero-cat/custom/sections.scss";
 

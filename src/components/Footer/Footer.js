@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 // reactstrap components
 import {
   Button,
@@ -28,17 +28,17 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/landing-page" tag={Link}>
-                  How to buy
+                <NavLink tag={Link} to="/landing-page#howToBuy">
+                  How to buy?
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/register-page" tag={Link}>
+                <NavLink to="/landing-page#tokenAllocated" tag={Link}>
                   Price chart
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/profile-page" tag={Link}>
+                <NavLink to="/landing-page#roadMap" tag={Link}>
                   Roadmap
                 </NavLink>
               </NavItem>

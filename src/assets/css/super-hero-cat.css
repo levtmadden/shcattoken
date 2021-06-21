@@ -13457,6 +13457,165 @@ hr {
 .icon.icon-danger {
   color: #fd5d93; }
 
+.top-0 {
+  top: 0; }
+
+.right-0 {
+  right: 0; }
+
+.bottom-0 {
+  bottom: 0; }
+
+.left-0 {
+  left: 0; }
+
+.top-1 {
+  top: 0.25rem; }
+
+.right-1 {
+  right: 0.25rem; }
+
+.bottom-1 {
+  bottom: 0.25rem; }
+
+.left-1 {
+  left: 0.25rem; }
+
+.top-2 {
+  top: 0.5rem; }
+
+.right-2 {
+  right: 0.5rem; }
+
+.bottom-2 {
+  bottom: 0.5rem; }
+
+.left-2 {
+  left: 0.5rem; }
+
+.top-3 {
+  top: 1rem; }
+
+.right-3 {
+  right: 1rem; }
+
+.bottom-3 {
+  bottom: 1rem; }
+
+.left-3 {
+  left: 1rem; }
+
+.top-4 {
+  top: 1.5rem; }
+
+.right-4 {
+  right: 1.5rem; }
+
+.bottom-4 {
+  bottom: 1.5rem; }
+
+.left-4 {
+  left: 1.5rem; }
+
+.top-5 {
+  top: 3rem; }
+
+.right-5 {
+  right: 3rem; }
+
+.bottom-5 {
+  bottom: 3rem; }
+
+.left-5 {
+  left: 3rem; }
+
+.top-sm {
+  top: 2rem; }
+
+.right-sm {
+  right: 2rem; }
+
+.bottom-sm {
+  bottom: 2rem; }
+
+.left-sm {
+  left: 2rem; }
+
+.top-md {
+  top: 4rem; }
+
+.right-md {
+  right: 4rem; }
+
+.bottom-md {
+  bottom: 4rem; }
+
+.left-md {
+  left: 4rem; }
+
+.top-lg {
+  top: 6rem; }
+
+.right-lg {
+  right: 6rem; }
+
+.bottom-lg {
+  bottom: 6rem; }
+
+.left-lg {
+  left: 6rem; }
+
+.top-xl {
+  top: 8rem; }
+
+.right-xl {
+  right: 8rem; }
+
+.bottom-xl {
+  bottom: 8rem; }
+
+.left-xl {
+  left: 8rem; }
+
+.center {
+  left: 50%;
+  transform: translateX(-50%); }
+
+.countdown-fixed-bottom {
+  position: fixed;
+  right: 2em;
+  bottom: 1em;
+  left: 2em;
+  z-index: 1030;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.bottom-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.bottom-button {
+  margin-right: 2em; }
+
+.bottom-img {
+  margin-right: 0.5em; }
+
+.bottom-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.timer {
+  text-align: center;
+  display: grid;
+  margin: 0.5em;
+  padding: 0.5em; }
+
 .section {
   padding: 70px 0;
   position: relative; }

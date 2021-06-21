@@ -1,5 +1,5 @@
 import React from "react";
-import { HashLink as Link } from 'react-router-hash-link';
+import { HashLink as Link } from "react-router-hash-link";
 // reactstrap components
 import {
   Button,
@@ -134,7 +134,7 @@ export default function ExamplesNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="https://github.com/creativetimofficial/super-hero-cat/issues">
+              <NavLink tag={Link} to="/landing-page#tokenAllocated">
                 Price chart
               </NavLink>
             </NavItem>
